@@ -3,7 +3,8 @@ function App() {
  
   return <div className="App">
 
-    <CustomText>Pikachu</CustomText>
+     <CustomText>Pokemon</CustomText>
+
 
 
   </div>;
