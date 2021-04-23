@@ -2,7 +2,7 @@ import React from 'react'
 import{render,unmountComponentAtNode} from 'react-dom'
 import {act} from 'react-dom/test-utils'
 import CustomText from './custom.text.component'
-
+let container = null;
 
 beforeEach(() => {
     // setup a DOM element as a render target
